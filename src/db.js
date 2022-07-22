@@ -3,13 +3,20 @@ const { Sequelize, Op } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
 
-let sequelize = new Sequelize(
-  `postgres://postgres:youtube12@Localhost/challenge`,
-  {
-    logging: false,
-    native: false,
-  }
-);
+let sequelize = new Sequelize({
+  database: "da73a39mr09ac7",
+  dialect: "postgres",
+  host: "ec2-3-219-52-220.compute-1.amazonaws.com",
+  port: 5432,
+  username: "vyjvumwzkoafyu",
+  password: "f1980a86b093f58530829e338379fe2b6c3571ca42d6c9d0a5e3747ded5c013e",
+  pool: { max: 3, min: 1, iddle: 100 },
+  dialectOptions: {
+    ssl: { require: true, rejectUnauthorized: false },
+    keepAlive: true,
+  },
+  ssl: true,
+});
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
