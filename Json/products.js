@@ -3,25 +3,25 @@ const productMockUp = async () => {
   try {
     // ******************************************BEAUTY***************************
     await Products.create({
-      name: "Limpiador facial",
+      name: "Facial cleaner",
       price: 300,
       image_url: [
         "https://res.cloudinary.com/dr8u3dssn/image/upload/v1651376664/beaty/acne/4_2_kygt2x.png",
         "https://res.cloudinary.com/dr8u3dssn/image/upload/v1651376664/beaty/acne/4_1_tc2czi.png",
       ],
       description:
-        "LIMPIEZA PROFUNDA\
-      MODO LUZ ROJA\
-      LA PIEL SENSIBLE CON TECNOLOGÍA DE LUZ ROJA\
-      TAMBIÉN PUEDE ESTAR SEGURO DE USAR\
-      MODO LUZ AZUL\
-      REFINAR LOS POROS MEJORAR EL ACNÉ\
-      MEJORA LOS OJOS\
-      CUIDADO DE OJOS\
-      TECNOLOGÍA DE SENSOR DE TEMPERATURA\
-      ESENCIA DE COLOCACIÓN PROMUEVE LA ABSORCIÓN\
-      DE PRODUCTOS PARA EL CUIDADO DE LA PIEL\
-      INCLUYE GEL PARA CEJAS",
+        "DEEP CLEANING\
+      RED LIGHT MODE\
+      SENSITIVE SKIN WITH RED LIGHT TECHNOLOGY\
+      YOU CAN ALSO BE SURE TO USE\
+      BLUE LIGHT MODE\
+      REFINE PORES IMPROVE ACNE\
+      IMPROVES EYES\
+      EYE CARE\
+      TEMPERATURE SENSOR TECHNOLOGY\
+      PLACEMENT ESSENCE PROMOTES ABSORPTION\
+      OF SKIN CARE PRODUCTS\
+      INCLUDES EYEBROW GEL",
       brandId: "5adb1af9-0bb2-4ba7-a811-3994c61a43f4",
     });
     await Products.create({
@@ -49,7 +49,7 @@ const productMockUp = async () => {
       categoryId: "69cacb3c-4ef3-4d72-bbf3-d6618e45a483",
     });
     await Products.create({
-      name: "Banca abdominal de gimnasio",
+      name: "gym abdominal bench",
       price: 100,
       // newItem: false,
       brandId: "5adb1af9-0bb2-4ba7-a811-3994c61a43f6",
@@ -60,19 +60,19 @@ const productMockUp = async () => {
       ],
 
       description:
-        "Modelo y diseño: SIX PACK BANCA ABDOMINAL TOTAL 6 EN 1, REGALO 2 BANDAS EJERCICIOS\
-      Soporta: hasta 100 Kg\
-      peso: 13 Kg\
-      dimensiones ensambladas (LxWxH): 86cm x 25cm x 40cm\
-      apropiado para: estómago, piernas, nalgas y espalda\
-      color de la máquina: negro y naranja.\
-      características: plegable, ajustable a su altura\
-      para ser utilizado para mejorar: fitness, músculos, reducción de peso",
+        "Model and design: SIX PACK TOTAL ABDOMINAL BANKING 6 IN 1, GIFT OF 2 EXERCISE BANDS\
+      Supports: up to 100 Kg\
+      weight: 13 Kg\
+      assembled dimensions (LxWxH): 86cm x 25cm x 40cm\
+      suitable for: stomach, legs, buttocks and back\
+      machine color: black and orange.\
+      features: foldable, adjustable to your height\
+      to be used to improve: fitness, muscles, weight reduction",
 
       // brand: 1,
     });
     await Products.create({
-      name: "Tonificador corporal",
+      name: "body toner",
       price: 110,
       // newItem: false,
       brandId: "5adb1af9-0bb2-4ba7-a811-3994c61a43f6",
@@ -84,17 +84,17 @@ const productMockUp = async () => {
       ],
 
       description:
-        "Estimulador Smart Fitness 5 En 1 Abdomen Gluteos Brazos Nuca\
+        "Smart Fitness Stimulator 5 In 1 Abdomen Buttocks Arms Neck\
 \
-      ¡Ponte fitness para este verano!\
+      Get fit for this summer!\
       \
-      • Smart Fitness 5 en 1\
-      • Estimulador muscular\
-      • Abdomen, Glúteos, Brazos, Piernas, Nuca\
-      • 6 modos de estimulación, 4 intensidades",
+      •SmartFitness 5 in 1\
+      • Muscle stimulator\
+      • Abdomen, Buttocks, Arms, Legs, Neck\
+      • 6 stimulation modes, 4 intensities",
     });
     await Products.create({
-      name: "Tablero de planchas",
+      name: "iron board",
       price: 110,
 
       brandId: "5adb1af9-0bb2-4ba7-a811-3994c61a43f6",
@@ -106,23 +106,21 @@ const productMockUp = async () => {
       ],
 
       description:
-        "Fácil de usar: Plug and play, inserte la manija en la posición codificada por color deseada.Puede acomodar 300 libras de usuarios.\
+        "Easy to use: Plug and play, insert the handle into the desired color coded position. It can accommodate 300lbs of users.\
 \
-      Portátil, montaje sencillo para fácil almacenamiento.Se puede colocar en cualquier lugar, incluyendo la oficina o el hogar.\
+      Portable, simple assembly for easy storage. It can be placed anywhere, including the office or home.\
       \
-      Cojines antideslizantes, empuñaduras antideslizantes: elimine la tensión en sus manos y muñecas en comparación con las flexiones tradicionales.\
+      Non-slip cushions, non-slip grips - Eliminate the strain on your hands and wrists compared to traditional push-ups.\
       \
-      Mango sobredimensionado con diseño ergonómico.\
+      Oversized handle with ergonomic design.\
       \
-      Las almohadillas multifunción ofrecen múltiples posiciones y ángulos de ejercicio posibles para dar forma a los músculos de la parte superior del cuerpo.\
+      The multi-function pads offer multiple possible exercise positions and angles to shape your upper body muscles.\
       \
-      Las diferentes áreas de color pueden ejercitar los músculos en diferentes partes del cuerpo: hombro (rojo), pecho (azul), espalda (amarillo), tríceps (verde).\
-      Lista de embalaje y embalaje: 1 x Junta push-up 2 x Mango antideslizante de silicona.",
-
-      // brand: 1,
+      The different color areas can exercise the muscles in different parts of the body: shoulder (red), chest (blue), back (yellow), triceps (green).\
+      Packing and packaging list: 1 x Push-up gasket 2 x Silicone anti-slip handle.",
     });
     await Products.create({
-      name: "Rache O Piñón Shimano",
+      name: "Rache O Sprocket Shimano",
       price: 15,
       // newItem: false,
       brandId: "5adb1af9-0bb2-4ba7-a811-3994c61a43f5",
@@ -132,14 +130,14 @@ const productMockUp = async () => {
       ],
 
       description:
-        "Características Pacha\
-        - Número de Dientes (T) : 14 - 16 - 18 - 20 - 22 - 24 - 34\
-        - Color: Marrón\
-        - Referencia Shimano: MF-TZ500-7\
-        Cualquier duda o inquietud con gusto la atenderemos...",
+        "Features Pacha \
+        - Number of Teeth (T) : 14 - 16 - 18 - 20 - 22 - 24 - 34\
+        - Brown color\
+        - Shimano reference: MF-TZ500-7\
+        Any questions or concerns we will gladly assist you...",
     });
     await Products.create({
-      name: "Descarilador Trasero",
+      name: "Rear Derailleur",
       price: 30,
       // newItem: false,
       brandId: "5adb1af9-0bb2-4ba7-a811-3994c61a43f5",
@@ -149,17 +147,17 @@ const productMockUp = async () => {
       ],
 
       description:
-        "TENSOR TRASERO SHIMANO ALTUS 8 VELOCIDADES\
+        "SHIMANO ALTUS 8-SPEED REAR LINKAGE\
 \
-        .-Modelo: M310\
-        .-Serie ALTUS 6/7/8 velocidades.\
-        .-Montaje directo al cuadro.\
-        .-Compatible con piñón hasta 34 dientes.\
-        .-Material Acero.\
-        .-Color Negro.\
-        .-Peso 326g.\
-        .-Empaque: Sin empaque.\
-        .-Condición del articulo: Nuevo.",
+        .-Model: M310\
+        .-ALTUS series 6/7/8 speeds.\
+        .-Direct mounting to the frame.\
+        .-Compatible with sprockets up to 34 teeth.\
+        .-Material Steel.\
+        .-Black Color.\
+        .-Weight 326g.\
+        .-Packaging: Without packaging.\
+        .-Item condition: New.",
     });
     await Products.create({
       name: "Tenedor Horquilla Suspensión",
@@ -174,11 +172,11 @@ const productMockUp = async () => {
       ],
 
       description:
-        "Espigo de Rosca para cajas y frente de dirección normal\
-        - Funciona para frenos V- brake o Frenos de Disco",
+        "Thread Stem for boxes and normal steering front\
+        - Works for V-brakes or Disc Brakes",
     });
     await Products.create({
-      name: "Silla  P/bicicleta",
+      name: "Bike chair",
       price: 10,
 
       brandId: "5adb1af9-0bb2-4ba7-a811-3994c61a43f6",
@@ -190,17 +188,17 @@ const productMockUp = async () => {
       ],
       stock: 35,
       description:
-        "Modelo: GW CONFORT PLUS.\
-        .-Diseño ergonómico y anatómico unisex.\
-        .-Dimensiones 260mm Largo x 170mm ancho x 40mm alto, Riel en acero.\
-        .-Para MTB y Spinning, con amortiguación.\
-        .-Relleno ultra suave, diseñado para aliviar la presión.\
-        .-Color Negro con Gris.\
-        .-Tipo de empaque: Sin Empaque.\
-        .-Condición del articulo: Nuevo.",
+        "Model: GW CONFORT PLUS.\
+        .-Unisex ergonomic and anatomical design.\
+        .-Dimensions 260mm long x 170mm wide x 40mm high, steel rail.\
+        .-For MTB and Spinning, with cushioning.\
+        .-Ultra soft padding, designed to relieve pressure.\
+        .-Color Black with Grey.\
+        .-Type of packaging: Without Packaging.\
+        .-Item condition: New.",
     });
     await Products.create({
-      name: "Set Ligas Tubulares De Resistencia",
+      name: "Tubular Resistance Bands Set",
       price: 21,
 
       brandId: "5adb1af9-0bb2-4ba7-a811-3994c61a43f6",
@@ -212,7 +210,7 @@ const productMockUp = async () => {
       ],
 
       description:
-        "Ideales para cualquier Entrenamiento, Gym, Crossfit, Yoga, Pilates. Juego de 5 Ligas de resistencia ajustables de varios colores, con el nivel de resistencia incluido en cada banda, ademas de una guía de ejercicios, bolsa de transporte y accesorios para realizar multitud de ejercicios de brazos, hombros, pecho, glúteos, piernas, etc. Las bandas elásticas pueden utilizarse juntas o por separado, disponen de mangos de espuma y mosquetones de metal para un óptimo agarre y sujeción. Gracias a su diseño portátil y su bolsa de transporte, se puede utilizar fácilmente en cualquier parte.",
+        "Ideal for any Training, Gym, Crossfit, Yoga, Pilates. Set of 5 adjustable resistance bands of various colors, with the resistance level included in each band, in addition to an exercise guide, transport bag and accessories to perform a multitude of exercises for arms, shoulders, chest, buttocks, legs, etc. The elastic bands can be used together or separately, they have foam handles and metal carabiners for optimal grip and support.Thanks to its portable design and its carrying bag transportation, it can be easily used anywhere.",
     });
   } catch (e) {
     console.log(e.message);
