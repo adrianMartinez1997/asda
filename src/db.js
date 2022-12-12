@@ -2,6 +2,7 @@ require("dotenv").config();
 const { Sequelize, Op } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
+<<<<<<< HEAD
 const { DB_USER, DB_HOST, DB_PASSWORD, DB_NAME } = process.env;
 let sequelize = new Sequelize({
   database: DB_NAME,
@@ -17,6 +18,13 @@ let sequelize = new Sequelize({
   },
   ssl: false,
 });
+=======
+
+let sequelize = new Sequelize(
+  `postgres://postgres:youtube12@localhost/challenge`,
+  { logging: false, native: false }
+);
+>>>>>>> 1e936063acc44b61277a0be080c8ad39cf62ff43
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
