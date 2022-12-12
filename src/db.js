@@ -2,20 +2,20 @@ require("dotenv").config();
 const { Sequelize, Op } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
-
+const { DB_USER, DB_HOST, DB_PASSWORD, DB_NAME } = process.env;
 let sequelize = new Sequelize({
-  database: "da73a39mr09ac7",
+  database: DB_NAME,
   dialect: "postgres",
-  host: "ec2-3-219-52-220.compute-1.amazonaws.com",
+  host: DB_HOST,
   port: 5432,
-  username: "vyjvumwzkoafyu",
-  password: "f1980a86b093f58530829e338379fe2b6c3571ca42d6c9d0a5e3747ded5c013e",
+  username: DB_USER,
+  password: DB_PASSWORD,
   pool: { max: 3, min: 1, iddle: 100 },
   dialectOptions: {
-    ssl: { require: true, rejectUnauthorized: false },
+    ssl: { require: false, rejectUnauthorized: false },
     keepAlive: true,
   },
-  ssl: true,
+  ssl: false,
 });
 const basename = path.basename(__filename);
 

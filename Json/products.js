@@ -46,7 +46,6 @@ const productMockUp = async () => {
       - 1 barra recta o " Z "solida AL ESCOGER',
 
       // brand: 1,
-      categoryId: "69cacb3c-4ef3-4d72-bbf3-d6618e45a483",
     });
     await Products.create({
       name: "gym abdominal bench",

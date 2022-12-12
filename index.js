@@ -5,7 +5,7 @@ const brandMockUp = require("./Json/brand");
 const usersMockUp = require("./Json/users");
 
 conn.sync({ force: true }).then(() => {
-  server.listen(process.env.PORT || 3000, async () => {
+  server.listen(process.env.PORT || 3004, async () => {
     await brandMockUp();
     await usersMockUp();
     await productMockUp();
